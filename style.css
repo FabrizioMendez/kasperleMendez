@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+nav a{
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.baner{
+    text-align: center;
+    width: 90%; ;
+    height: 200px; ;
+}
+
+.img-index{
+    width: 400px;
+    height: 400px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Obras de Remitente Kasperle</title>
+</head>
+<body>
+    <!-- Acá tenemos lo que seria el menu para movernos por la pág. -->
+    <header>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="../pages/obras.html">Obras</a>
+            <a href="../pages/fotos.html">Fotos</a>
+            <a href="../pages/historia.html">Historia</a>
+            <a href="../pages/contacto.html">Contacto</a>
+        </nav>
+    </header>
+<!-- Acá el titulo de la obra y el teatro mas el baner de la obra -->
+    <main>
+        <div>
+            <h2>
+                <p>
+                    Remitente Kasperle
+                </p>
+                <p>
+                    Teatro: Centro Ana Frank Argentina
+                </p>
+            </h2>
+
+            <img src="../img/baner-kasperle.png" alt="baner-kasperle">
+        </div>
+
+<!-- Acá va el calendario con los dias disponibles para la obra (no es clikeaable, es una img) -->
+
+<!-- Abajo de esto se encuentra el selector de dia para la obra asi como la cantidad y la forma de pago  -->
+        <form>
+            <fieldset>
+                <legend>Tikets para Remitente Kasperle</legend>
+                <label for="dia">Día</label>
+                <input type="text" name="dia" placeholder="Seleccione el día">
+                <label for="mes">Mes</label>
+                <input type="text" name="mes" placeholder="Seleccione el mes">
+                <label for="año">Año</label>
+                <input type="text" name="año" placeholder="Seleccione el año">
+                <label for="cantidad-entradas">Cantidad de entradas</label>
+                <input type="number" name="cantidad-entradas" placeholder="Seleccione la cantidad de entradas">
+                <label for="forma-de-pago">Forma de Pago</label>
+                <input type="text" name="forma-de-pago" placeholder="Seleccione la forma de pago">
+                <div>¿Donde va a ver la obra?</div>
+                <legend>Teatro</legend><input type="checkbox" name="teatro">
+                <legend>Online</legend><input type="checkbox" name="teatro">
+            </fieldset>
+        </form>
+        <div>
+            <img src="../img/teatro.jpg" alt="fachada-centro-ana-frank">
+            <img src="../img/como-llegar.png" alt="mapa-centro-ana-frank">
+        </div>
+    </main>
+</body>
+</html>
