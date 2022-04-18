@@ -1,10 +1,12 @@
-<style>
+
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,700&display=swap');
-</style>
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    background-color: black;
 }
 /* Aca tenemos todo lo que es el NAVEGADOR */
 nav{
@@ -27,7 +29,7 @@ nav a{
     justify-content: space-around;
     font-family: 'Merriweather', serif;
     font-size: large;
-    border: 2px solid black;
+    border: 2px solid #f4ff91;
     color: #525558;
 }
 
@@ -61,15 +63,46 @@ nav a{
     width: 90%; ;
     height: 200px; ;
 }
+.grid-index{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "img-index-1 video img-index-2";
+    justify-content: center;
+}
 
-.img-index{
+.img-index-1{
+    grid-area: img-index-1;
+}
+
+.video{
+    grid-area: video;
+}
+
+.img-index-2{
+    grid-area: img-index-2;
+}
+
+.img-index-1{
     width: 400px;
     height: 400px;
 }
+.img-index-2{
+    width: 400px;
+    height: 400px;
+}
+.video{
+    width: 1100px;
+    height: 400px;
+}
+
 
 .texto{
     font-family: 'Merriweather', serif;
     font-size: x-large;
+    background-color: #ffbf75;
+    color: #525558;
+    border: 3px solid #f4ff91;
 }
 
 
