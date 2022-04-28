@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: #ffbf75;
 }
 
 
@@ -36,7 +36,7 @@ nav a{
     font-family: 'Merriweather', serif;
     font-size: large;
     border: 2px solid #f4ff91;
-    color: #525558;
+    color: black;
 }
 
 .inicio{
@@ -113,26 +113,17 @@ nav a{
     font-family: 'Merriweather', serif;
     font-size: x-large;
     background-color: #ffbf75;
-    color: #525558;
+    color: black;
     border: 3px solid #f4ff91;
 }
 
 
-
-
-
-
-
-
 /* Aca tenemos lo que es el contacto */
-form{
-    background-color: #ffbf75;
+
+.tipografia{
+    font-family: 'Merriweather', serif;
+    color: black;
 }
-
-
-
-
-
 /* aca tenemos lo que es la historia */
 .intro-historia{
     background-color: #ffbf75;
@@ -199,3 +190,74 @@ form{
     width: auto;
     height: auto
 }
+
+
+
+
+
+/* Estilo Mobile
+@media screen and (max-width: 768px){
+     */
+    /* NAVEGADOR */
+    /* nav{
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-areas:
+        "inicio obras fotos historia contacto";
+        text-align: center;
+        justify-content: space-around;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    nav a{
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-decoration: none;
+        text-align: center;
+        justify-content: space-around;
+        font-family: 'Merriweather', serif;
+        font-size: large;
+        border: 2px solid #f4ff91;
+        color: #525558;
+    }
+    .inicio{
+        grid-area: inicio;
+        background-color: #ffbf75;
+    }
+    
+    .obras{
+        grid-area: obras;
+        background-color: #ffbf75;
+    }
+    
+    .fotos{
+        grid-area: fotos;
+        background-color: #ffbf75;
+    }
+    
+    .historia{
+        grid-area: historia;
+        background-color: #ffbf75;
+    }
+    
+    .contacto{
+        grid-area: contacto;
+        background-color: #ffbf75;
+    } */
+    
+    /* CONTACTO */
+    /* form{
+        display: flex;
+        background-color: #ffbf75;
+        width: 768px;
+    }
+    form label{
+        flex-wrap: wrap;
+        width: 300px;
+    }
+    form input{
+        flex-wrap: wrap;
+        width: 300px
+    }
+} */
