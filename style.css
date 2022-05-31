@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 body{
     background-color: #ffbf75;
@@ -36,7 +37,7 @@ nav a{
     font-family: 'Merriweather', serif;
     font-size: large;
     border: 2px solid #f4ff91;
-    color: black;
+    /* color: black; ????????? */
 }
 
 .inicio{
@@ -93,28 +94,22 @@ nav a{
 
 .img-index-1{
     grid-area: img-index-1;
+    width: 400px;
+    height: 400px;
 }
 
 .video{
     grid-area: video;
+    width: 1100px;
+    height: 400px;
 }
 
 .img-index-2{
     grid-area: img-index-2;
+    width: 400px;
+    height: 400px;
 }
 
-.img-index-1{
-    width: 400px;
-    height: 400px;
-}
-.img-index-2{
-    width: 400px;
-    height: 400px;
-}
-.video{
-    width: 1100px;
-    height: 400px;
-}
 
 
 .texto{
@@ -133,10 +128,10 @@ nav a{
     color: black;
 }
 /* aca tenemos lo que es la historia */
-.intro-historia{
+/* .intro-historia{
     background-color: #ffbf75;
 }
 
 .resto-historia{
     background-color: #ffbf75;
-}
+} */

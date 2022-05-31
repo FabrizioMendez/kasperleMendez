@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,700&display=swap");
+.baner-div {
+  background-color: black;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center; }
+  .baner-div .baner {
+    text-align: center;
+    width: max-content;
+    height: 200px; }
+  .baner-div p {
+    color: white; }
+
+.intro-historia {
+  background-color: #ffbf75; }
+
+.resto-historia {
+  background-color: #ffbf75; }
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: "inicio obras fotos historia contacto";
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 3px;
+  margin-bottom: 3px; }
+  nav a {
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-around;
+    font-family: "Merriweather", serif;
+    font-size: large;
+    border: 2px solid #f4ff91;
+    color: black; }
+  nav .inicio {
+    background-color: #ffbf75;
+    grid-area: inicio; }
+  nav .obras {
+    background-color: #ffbf75;
+    grid-area: obras; }
+  nav .fotos {
+    background-color: #ffbf75;
+    grid-area: fotos; }
+  nav .historia {
+    background-color: #ffbf75;
+    grid-area: historia; }
+  nav .contacto {
+    background-color: #ffbf75;
+    grid-area: contacto; }
+
+.baner-div {
+  background-color: black;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center; }
+  .baner-div .baner {
+    text-align: center;
+    width: max-content;
+    height: 200px; }
+  .baner-div p {
+    color: white; }
+
+.grid-index {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "img-index-1 video img-index-2";
+  justify-content: center;
+  background-color: black; }
+  .grid-index .img-index-1 {
+    grid-area: img-index-1;
+    width: 400px;
+    height: 400px; }
+  .grid-index .video {
+    grid-area: video;
+    width: 1100px;
+    height: 400px; }
+  .grid-index .img-index-2 {
+    grid-area: img-index-2;
+    width: 400px;
+    height: 400px; }
+
+.baner-div {
+  background-color: black;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center; }
+  .baner-div .baner {
+    text-align: center;
+    width: max-content;
+    height: 200px; }
+  .baner-div p {
+    color: white; }
+
+.imagenes-museo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .imagenes-museo img {
+    height: 400px;
+    width: max-content;
+    max-width: 450px; }
+
+.mapa:hover {
+  transform: scale(2, 2); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+body {
+  background-color: #ffbf75; }

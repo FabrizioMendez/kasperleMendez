@@ -1,0 +1,32 @@
+@import "../variables/variables";
+.baner-div{
+    background-color: $fondo-foto;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    .baner{
+        text-align: center;
+        width: max-content; 
+        height: 200px;
+    }
+    p{
+        color: white;
+    }
+}
+
+.imagenes-museo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 400px;
+        width: max-content;
+        max-width: 450px;
+    }
+}
+.mapa:hover{
+    transform: scale(2,2);
+
+}

@@ -1,0 +1,20 @@
+@import "sass/condicionales";
+@import "sass/extend";
+@import "sass/maps";
+@import "sass/mixins";
+@import "sass/operaciones";
+@import "partials/contacto";
+@import "partials/fotos";
+@import "partials/historia";
+@import "partials/index";
+@import "partials/obras";
+@import "variables/variables";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: $fondo;
+}
