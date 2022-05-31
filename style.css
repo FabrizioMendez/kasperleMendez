@@ -72,8 +72,16 @@ nav a{
 /* aca tenemos cosas del index */
 .baner{
     text-align: center;
-    width: 90%; ;
-    height: 200px; ;
+    width: max-content; 
+    height: 200px;
+}
+
+.baner-div{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
 }
 .grid-index{
     display: grid;
@@ -132,132 +140,3 @@ nav a{
 .resto-historia{
     background-color: #ffbf75;
 }
-
-/* aca tenemos lo que son las fotos de la obra */
-
-
-
-
-
-
-.grid-fotos-kasperle{
-    border: 3px solid black;
-    display: grid;
-    grid-template-columns: (100px 100px 100px 100px 100px);
-    grid-template-rows: (250px 250px 250px 250px 250px 250px);
-    gap: 3px 3px;
-    grid-template-areas: 
-    "foto-kasperle-1 foto-kasperle-1 foto-kasperle-2 foto-kasperle-2 foto-kasperle-3 foto-kasperle-3"
-    "foto-kasperle-1 foto-kasperle-1 foto-kasperle-2 foto-kasperle-2 foto-kasperle-3 foto-kasperle-3"
-    "foto-kasperle-1 foto-kasperle-1 foto-kasperle-4 foto-kasperle-6 foto-kasperle-3 foto-kasperle-3"
-    "foto-kasperle-1 foto-kasperle-1 foto-kasperle-5 foto-kasperle-5 foto-kasperle-3 foto-kasperle-3"
-    "foto-kasperle-1 foto-kasperle-1 foto-kasperle-5 foto-kasperle-5 foto-kasperle-3 foto-kasperle-3"
-    ;
-}
-.foto-kasperle-1{
-    grid-area: foto-kasperle-1;
-    object-fit: cover;
-    width: auto;
-    height: auto;
-}
-.foto-kasperle-2{
-    grid-area: foto-kasperle-2;
-    object-fit: cover;
-    width: auto;
-    height: auto
-}
-.foto-kasperle-3{
-    grid-area: foto-kasperle-3;
-    object-fit: cover;
-    width: auto;
-    height: auto
-}
-.foto-kasperle-4{
-    grid-area: foto-kasperle-4;
-    object-fit: cover;
-    width: auto;
-    height: auto
-}
-.foto-kasperle-5{
-    grid-area: foto-kasperle-5;
-    object-fit: cover;
-    width: auto;
-    height: auto
-}
-.foto-kasperle-6{
-    grid-area: foto-kasperle-6;
-    object-fit: cover;
-    width: auto;
-    height: auto
-}
-
-
-
-
-
-/* Estilo Mobile
-@media screen and (max-width: 768px){
-     */
-    /* NAVEGADOR */
-    /* nav{
-        display: flex;
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-areas:
-        "inicio obras fotos historia contacto";
-        text-align: center;
-        justify-content: space-around;
-        margin-top: 3px;
-        margin-bottom: 3px;
-    }
-    nav a{
-        flex-direction: row;
-        flex-wrap: wrap;
-        text-decoration: none;
-        text-align: center;
-        justify-content: space-around;
-        font-family: 'Merriweather', serif;
-        font-size: large;
-        border: 2px solid #f4ff91;
-        color: #525558;
-    }
-    .inicio{
-        grid-area: inicio;
-        background-color: #ffbf75;
-    }
-    
-    .obras{
-        grid-area: obras;
-        background-color: #ffbf75;
-    }
-    
-    .fotos{
-        grid-area: fotos;
-        background-color: #ffbf75;
-    }
-    
-    .historia{
-        grid-area: historia;
-        background-color: #ffbf75;
-    }
-    
-    .contacto{
-        grid-area: contacto;
-        background-color: #ffbf75;
-    } */
-    
-    /* CONTACTO */
-    /* form{
-        display: flex;
-        background-color: #ffbf75;
-        width: 768px;
-    }
-    form label{
-        flex-wrap: wrap;
-        width: 300px;
-    }
-    form input{
-        flex-wrap: wrap;
-        width: 300px
-    }
-} */
