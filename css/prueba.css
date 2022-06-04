@@ -17,11 +17,44 @@
   .baner-div p {
     color: white; }
 
+.bordear-contacto {
+  display: flex;
+  border: 2px solid #f4ff91;
+  flex-direction: column;
+  justify-content: center; }
+  .bordear-contacto .borde-contacto {
+    margin-left: 450px; }
+
+.bordear-foto {
+  border: 2px solid #f4ff91;
+  max-width: 800px;
+  max-height: 800px; }
+  .bordear-foto .borde-foto {
+    width: auto;
+    height: 800px;
+    background-color: black; }
+
+.main-fotos {
+  display: grid;
+  place-content: center; }
+
 .intro-historia {
   background-color: #ffbf75; }
 
 .resto-historia {
-  background-color: #ffbf75; }
+  background-color: #ffd3a1;
+  margin: 25px;
+  padding: 20px;
+  border: 2px solid #f4ff91; }
+
+.titulo-historia {
+  text-align: center;
+  margin: 10px; }
+
+.texto-historia {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 35px; }
 
 nav {
   display: grid;
@@ -89,6 +122,15 @@ nav {
     width: 400px;
     height: 400px; }
 
+.texto {
+  font-family: 'Merriweather', serif;
+  font-size: x-large;
+  background-color: #ffbf75;
+  color: black;
+  border: 2px solid #f4ff91;
+  padding: 15px;
+  margin: 15px; }
+
 .baner-div {
   background-color: black;
   width: 100%;
@@ -115,6 +157,15 @@ nav {
 .mapa:hover {
   transform: scale(2, 2); }
 
+.bordear {
+  display: flex;
+  border: 2px solid #f4ff91;
+  flex-direction: column;
+  justify-content: center; }
+  .bordear .borde {
+    margin-left: 250px;
+    margin-right: 250px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -123,3 +174,7 @@ nav {
 
 body {
   background-color: #ffbf75; }
+
+.tipografia {
+  font-family: 'Merriweather', serif;
+  color: black; }

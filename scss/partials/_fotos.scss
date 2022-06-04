@@ -1,1 +1,18 @@
 @import "../variables/variables";
+
+
+.bordear-foto{
+    border: $borde;
+    max-width: 800px;
+    max-height: 800px;
+    .borde-foto{
+        width: auto;
+        height: 800px;
+        background-color: black;
+    }
+}
+.main-fotos{
+    display: grid;
+    place-content: center;
+}
+

@@ -14,3 +14,16 @@
         color: white;
     }
 }
+
+
+.bordear-contacto{
+    display: flex;
+    border: $borde;
+    flex-direction: column;
+    justify-content: center;
+    .borde-contacto{
+        margin-left: 450px;
+
+    }
+    
+}

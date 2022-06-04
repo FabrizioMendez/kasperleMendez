@@ -30,3 +30,17 @@
     transform: scale(2,2);
 
 }
+
+
+
+
+.bordear{
+    display: flex;
+    border: $borde;
+    flex-direction: column;
+    justify-content: center;
+    .borde{
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+}

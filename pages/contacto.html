@@ -21,7 +21,7 @@
     </header>
 <!-- Aca esta el nuevo formulario de contacto NUEVO -->
     <div class="container tipografia">
-    <main>
+    <main class="bordear-contacto">
     <div class="py-5 text-center tipografia">
         
         <h2 class="tipografia">Formulario de Contacto</h2>
@@ -29,7 +29,7 @@
     </div>
         <div class="col-md-7 col-lg-8">
         <form class="needs-validation" novalidate>
-            <div class="row g-3">
+            <div class="row g-3 borde-contacto">
             <div class="col-sm-6">
                 <label for="firstName" class="form-label tipografia">Nombre</label>
                 <input type="text" class="form-control tipografia" id="firstName" placeholder="Homero" value="" required>
@@ -51,103 +51,12 @@
                 Direccion de email no valido.
                 </div>
             </div>
-            <div class="col-12">
-                <label for="address" class="form-label tipografia">Direccion</label>
-                <input type="text" class="form-control tipografia" id="address" placeholder="Av. Siempre Viva 742" required>
-                <div class="invalid-feedback tipografia">
-                Direccion no valida.
-                </div>
-            </div>
-            <div class="col-md-5 tipografia">
-                <label for="country" class="form-label tipografia">Pais</label>
-                <select class="form-select tipografia" id="country" required>
-                <option value="">Seleccionar...</option>
-                <option>Argentina</option>
-                <option>Peru</option>
-                <option>Bolivia</option>
-                <option>Colombia</option>
-                </select>
-                <div class="invalid-feedback tipografia">
-                Pais no valido.
-                </div>
-            </div>
-            <div class="col-md-4 tipografia">
-                <label for="state" class="form-label tipografia">Provincia</label>
-                <select class="form-select tipografia" id="state" required>
-                <option value="">Seleccionar...</option>
-                <option>CABA</option>
-                <option>Lima</option>
-                <option>Sucre</option>
-                <option>Bogota</option>
-                </select>
-                <div class="invalid-feedback tipografia">
-                Provincia no valida.
-                </div>
-            </div>
-            <div class="col-md-3 tipografia">
-                <label for="zip" class="form-label tipografia">Codigo Postal</label>
-                <input type="text" class="form-control tipografia" id="zip" placeholder="1234" required>
-                <div class="invalid-feedback tipografia">
-                Codigo Postal no valido.
-                </div>
-            </div>
-            </div>
+
             <hr class="my-4">
             <div class="form-check">
             <input type="checkbox" class="form-check-input tipografia" id="save-info">
             <label class="form-check-label tipografia" for="save-info">Guardar informacion para el futuro</label>
             </div>
-            <hr class="my-4">
-            <h4 class="mb-3 tipografia">Formas de pago</h4>
-            <div class="my-3">
-            <div class="form-check">
-                <input id="credit" name="paymentMethod" type="radio" class="form-check-input tipografia" checked required>
-                <label class="form-check-label tipografia" for="credit">Tarjeta de Credito</label>
-            </div>
-            <div class="form-check">
-                <input id="debit" name="paymentMethod" type="radio" class="form-check-input tipografia" required>
-                <label class="form-check-label tipografia" for="debit">Tarjeta de Debito</label>
-            </div>
-            <div class="form-check tipografia">
-                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input tipografia" required>
-                <label class="form-check-label tipografia" for="paypal">Efectivo</label>
-            </div>
-            </div>
-            <div class="row gy-3">
-            <div class="col-md-6">
-                <label for="cc-name" class="form-label tipografia">Nombre como figura en la Tarjeta</label>
-                <input type="text" class="form-control tipografia" id="cc-name" placeholder="" required>
-                <small class="text-muted tipografia"></small>
-                <div class="invalid-feedback tipografia">
-                Nombre no valido.
-                </div>
-            </div>
-            <div class="col-md-6">
-                <label for="cc-number" class="form-label tipografia">Numero de Tarjeta</label>
-                <input type="text" class="form-control tipografia" id="cc-number" placeholder="" required>
-                <div class="invalid-feedback tipografia">
-                Numero de Tarjeta no valido.
-                </div>
-            </div>
-            <div class="col-md-3">
-                <label for="cc-expiration" class="form-label tipografia">Fecha de Expiracion</label>
-                <input type="text" class="form-control tipografia" id="cc-expiration" placeholder="" required>
-                <div class="invalid-feedback tipografia">
-                Fecha de Expiracion no valida.
-                </div>
-            </div>
-            <div class="col-md-3">
-                <label for="cc-cvv" class="form-label tipografia">Codigo de Seguridad</label>
-                <input type="text" class="form-control tipografia" id="cc-cvv" placeholder="" required>
-                <div class="invalid-feedback tipografia">
-                Codigo de Seguridad no valdio.
-                </div>
-            </div>
-            </div>
-            <hr class="my-4">
-            <button class="w-100 btn btn-primary btn-lg tipografia" type="submit">Continuar con el Pago</button>
-        </form>
-        </div>
     </div>
     </main>
 
