@@ -84,3 +84,57 @@ nav{
     padding: 15px;
     margin: 15px;
 }
+
+
+
+@media only screen and (max-width: 576px) {
+    
+    
+    // Aca esta el baner
+    
+    .baner-div{
+        background-color: $fondo-foto;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        .baner{
+            text-align: center;
+            width: max-content; 
+            height: 200px;
+        }
+        p{
+            color: white;
+            display: none;
+        }
+    }
+    
+    // Aca esta el video y las fotos
+
+    .grid-index{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+        "img-index-1 video img-index-2";
+        justify-content: center;
+        background-color: $fondo-foto;
+        .img-index-1{
+            grid-area: img-index-1;
+            width: 400px;
+            height: 400px;
+            display: none;
+        }
+        .video{
+            grid-area: video;
+            width: 320px;
+            height: 400px;
+        }
+        .img-index-2{
+            grid-area: img-index-2;
+            width: 400px;
+            height: 400px;
+            display: none;
+        }
+    }
+
+}
