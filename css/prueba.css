@@ -25,6 +25,29 @@
   .bordear-contacto .borde-contacto {
     margin-left: 450px; }
 
+@media only screen and (max-width: 576px) {
+  .baner-div {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center; }
+    .baner-div .baner {
+      text-align: center;
+      width: max-content;
+      height: 200px; }
+    .baner-div p {
+      color: white;
+      display: none; }
+  .bordear-contacto {
+    display: flex;
+    border: 2px solid #f4ff91;
+    flex-direction: column;
+    justify-content: center; }
+    .bordear-contacto .borde-contacto {
+      margin-left: 5px;
+      margin-right: 5px; } }
+
 .bordear-foto {
   border: 2px solid #f4ff91;
   max-width: 800px;
@@ -200,6 +223,40 @@ nav {
   .bordear .borde {
     margin-left: 250px;
     margin-right: 250px; }
+
+@media only screen and (max-width: 576px) {
+  .baner-div {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center; }
+    .baner-div .baner {
+      text-align: center;
+      width: max-content;
+      height: 200px; }
+    .baner-div p {
+      color: white;
+      display: none; }
+  .bordear-obras {
+    display: flex;
+    border: 2px solid #f4ff91;
+    flex-direction: column;
+    justify-content: center; }
+    .bordear-obras .borde-obras {
+      margin-left: 5px;
+      margin-right: 5px; }
+  .imagenes-museo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .imagenes-museo img {
+      height: 100px;
+      width: max-content;
+      max-width: 150px; }
+  .mapa:hover {
+    transform: scale(2, 2); } }
 
 * {
   margin: 0;

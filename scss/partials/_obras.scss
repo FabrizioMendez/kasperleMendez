@@ -44,3 +44,59 @@
         margin-right: 250px;
     }
 }
+
+@media only screen and (max-width: 576px) {
+
+
+        // Aca esta el baner
+    
+        .baner-div{
+            background-color: $fondo-foto;
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            .baner{
+                text-align: center;
+                width: max-content; 
+                height: 200px;
+            }
+            p{
+                color: white;
+                display: none;
+            }
+        }
+
+
+        // Aca esta el formulario
+
+        .bordear-obras{
+            display: flex;
+            border: $borde;
+            flex-direction: column;
+            justify-content: center;
+            .borde-obras{
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+        }
+
+// Aca esta la fachada del museo
+
+.imagenes-museo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 100px;
+        width: max-content;
+        max-width: 150px;
+    }
+}
+// Aca esta el mapa
+        .mapa:hover{
+            transform: scale(2,2);
+        
+        }
+}
