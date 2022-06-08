@@ -34,16 +34,18 @@
 
 
 
-.bordear{
+.bordear-obras{
     display: flex;
     border: $borde;
     flex-direction: column;
     justify-content: center;
-    .borde{
+    .borde-obras{
         margin-left: 250px;
         margin-right: 250px;
     }
 }
+
+// Aca esta para que se vea en cel
 
 @media only screen and (max-width: 576px) {
 
@@ -99,4 +101,64 @@
             transform: scale(2,2);
         
         }
+}
+
+// Aca esta para que se vea en la tablet
+
+
+@media only screen and (max-width: 768px) {
+
+    // Aca tenemos lo que es el baner
+    .baner-div{
+        background-color: $fondo-foto;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        .baner{
+            text-align: center;
+            width: max-content; 
+            height: 200px;
+        }
+        p{
+            flex-direction: row;
+            color: white;
+            height: 50px;
+            padding-left: 150px;
+            
+        }
+    }
+
+
+    // Aca esta el formulario
+
+    .bordear-obras{
+        display: flex;
+        border: $borde;
+        flex-direction: column;
+        justify-content: center;
+        .borde-obras{
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+    }
+
+    // Aca estan las imagenes
+
+    .imagenes-museo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        img{
+            height: 300px;
+            width: max-content;
+            max-width: 340px;
+        }
+    }
+    .mapa:hover{
+        transform: scale(2,2);
+    
+    }
+
 }

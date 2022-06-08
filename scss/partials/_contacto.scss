@@ -60,7 +60,86 @@
         justify-content: center;
         .borde-contacto{
             margin-left: 5px;
-            margin-right: 5px;
         }
     }    
+}
+
+
+// Aca esta para que se vea en la tablet
+
+@media only screen and (max-width: 768px){
+
+
+        // Aca tenemos lo que es el baner
+    // Aca tenemos lo que es el baner
+    .baner-div{
+        background-color: $fondo-foto;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        .baner{
+            text-align: center;
+            width: max-content; 
+            height: 200px;
+        }
+        p{
+            flex-direction: row;
+            color: white;
+            height: 50px;
+            padding-left: 150px;
+            
+        }
+    }
+
+        // Aca esta el formulario
+
+        .bordear-contacto{
+            display: flex;
+            border: $borde;
+            flex-direction: column;
+            justify-content: center;
+            .borde-contacto{
+                margin-left: 240px;
+                
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

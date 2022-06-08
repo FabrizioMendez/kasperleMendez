@@ -138,3 +138,57 @@ nav{
     }
 
 }
+
+
+// Aca esta para que se vea en la tablet/laptop
+
+@media only screen and (max-width: 768px) {
+
+
+    // Aca tenemos lo que es el baner
+.baner-div{
+    background-color: $fondo-foto;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    .baner{
+        text-align: center;
+        width: max-content; 
+        height: 200px;
+    }
+    p{
+        flex-direction: row;
+        color: white;
+        height: 50px;
+        padding-left: 150px;
+        
+    }
+}
+
+// Aca esta el video y las fotos
+
+.grid-index{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "img-index-1 video img-index-2";
+    justify-content: center;
+    background-color: $fondo-foto;
+    .img-index-1{
+        grid-area: img-index-1;
+        width: 300px;
+        height: 400px;
+    }
+    .video{
+        grid-area: video;
+        width: 320px;
+        height: 400px;
+    }
+    .img-index-2{
+        grid-area: img-index-2;
+        width: 300px;
+        height: 400px;
+    }
+}
+}
